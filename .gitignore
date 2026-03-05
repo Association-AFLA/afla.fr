@@ -7,12 +7,14 @@ license.txt
 readme.html
 
 # Ne pas versionner les plugins tiers
-wp-content/plugins/
-!wp-content/plugins/wp-familly-members/
+wp-content/plugins/*
+!wp-content/plugins/wp-familly-members
+!wp-content/plugins/wp-familly-members/**
 
 # Ne pas versionner les thèmes tiers
-wp-content/themes/
-!wp-content/themes/afla/
+wp-content/themes/*
+!wp-content/themes/afla
+!wp-content/themes/afla/**
 
 # Uploads
 wp-content/uploads/
